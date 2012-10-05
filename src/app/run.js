@@ -25,7 +25,11 @@ require({
 		'dojox',
 
 		// For reference, this is what a more verbose package declaration looks like.
-		{ name: 'app', location: 'app', map: {} }
+		{ name: 'app', location: 'app', map: {} },
+
+                // Register jQuery as a package
+                { name: 'jquery', location: 'jquery', main: 'jquery-1.8.2' }
+
 	]
 // Require `app`. This loads the main application module, `app/main`, since we registered the `app` package above.
 }, [ 'app' ]);

@@ -30,6 +30,11 @@
 		 this flag at all, you will break the build! -->
     <script data-dojo-config="async: 1, tlmSiblingOfDojo: 0, isDebug: 1" src="dojo/dojo.js"></script>
 
+    <!-- As of jQuery 1.7, jQuery will register as an AMD module, but only if the AMD loader sets define.amd.jQuery to a true value. -->
+    <script>
+         define.amd.jQuery = true;
+    </script>
+
     <!-- Load the loader configuration script. Note that this module ID is hard-coded in build.sh in order to provide
          an optimised build that loads as few as one script for the entire application. If you change the name or
          location of this module, you will need to update build.sh too. -->
