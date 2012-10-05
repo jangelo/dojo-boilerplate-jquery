@@ -4,11 +4,13 @@ Dojo Boilerplate with jQuery: A Starter Kit for Dojo Development
 
 This is a fork of Dojo Boilerplate showing a simple example of how to use jQuery in your Dojo application.  Nothing has changed in terms how to perform a build and please follow the Dojo Boilerplate instructions on how to do it.
 
-The following was added/modified:
-1. Create a folder to hold the jQuery source.
-2. Register jQuery as an AMD module in the index.html file by doing define.amd.jQuery = true;
-3. Register jQuery as a package in the app/run.js.  This tells your app you will be using jQuery and where it can be found.
-4. Use jQuery in the app/main.js by specifying it in the require.
+Changes
+-----------
+
+0. Create a folder to hold the jQuery source.
+1. Register jQuery as an AMD module in the index.html file by doing define.amd.jQuery = true;
+2. Register jQuery as a package in the app/run.js.  This tells your app you will be using jQuery and where it can be found.
+3. Use jQuery in the app/main.js by specifying it in the require.
 
 
 Dojo Boilerplate: A Starter Kit for Dojo Development
