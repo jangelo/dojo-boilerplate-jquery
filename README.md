@@ -1,4 +1,3 @@
-
 Dojo Boilerplate with jQuery: A Starter Kit for Dojo Development
 ====================================================
 
@@ -36,7 +35,7 @@ Quick Start
 1. Develop your project in `src/` until it is amazing.
 2. Run `build.sh`, which will create an awesome optimised build in `dist/`.
 3. Upload `dist/` for millions of people the world over to enjoy.
-4. Hapyness.
+4. Happyness.
 
 ### Windows Users
 
